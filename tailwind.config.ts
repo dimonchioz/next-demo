@@ -9,8 +9,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#2b68e0",
+        secondary: "#e5e7eb",
+      },
+      fontFamily: {
+        varela: ['"Varela Round"', "sans-serif"],
       },
     },
   },
